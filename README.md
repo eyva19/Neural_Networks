@@ -25,4 +25,4 @@
 - The original model has an accuracy of 47.08%, which is significantly lower than the two alternative models.The alternative models have very similar accuracies, both around 73%.
 - The original model is the fastest with 168ms/epoch. Model 2 is the slowest with 246ms/epoch and Model 1 is in the middle at 235ms/epoch.
 - The original model is the fastest per step, followed by Model 1, and then Model 2.
-- If we were to prioritize accuracy over computation time, Alternative Model 1 is the best choice as it has the highest accuracy and a lower loss compared to Model 2, even though the difference is marginal. It also offers a better balance between accuracy and computation time. However, if you're looking for the quickest model, the Original Model is the fastest, but with a significant trade-off in accuracy and loss.
+- If we were to prioritize accuracy over computation time, Alternative Model 1 is the best choice as it has the highest accuracy. However, if you're looking for the quickest model, the Original Model is the fastest, but with a significant trade-off in accuracy and loss.
